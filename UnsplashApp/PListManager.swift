@@ -10,7 +10,7 @@ struct ConfigData: Codable {
 let clientId: String
     
 enum CodingKeys: String, CodingKey {
-case clientId = "client_id"
+case clientId = "API_Key"
     }
 }
 class ConfigurationManager {

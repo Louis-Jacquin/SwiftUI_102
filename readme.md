@@ -30,3 +30,15 @@ extension Image {
     }
 }
 ```
+
+# 4-Appel-Reseau
+## Exercice 3
+async/await :
+C'est le model asynchrone, on déclare des fonctions asynchrones avec async et quand on appelle ces fonctions on utilise await. C'est une syntaxe assez basique qui permet de facilement faire des appels API.   
+
+Combine :
+C'est un framework qui permet d'utiliser des flux de données asynchrone en Swift. Il faut créer des publishers qui emettent des valeurs, puis il faut manipuler ces publishers pour obtenir le résultat souhaité. C'est un méthode adapté pour les flux de données qui changent dans le temps.   
+
+completionHandler / GCD :
+C'est un model de programmation qui utilise les threads et des files d'attente. Il faut spécifier les actions à réaliser après une tache asynchrone. GCD est utilisé pour créer des files d'attente et executer du code sur ces files d'attente. Ce modele est très flexible et permet beaucoup de choses.
+
